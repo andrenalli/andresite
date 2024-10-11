@@ -1,0 +1,20 @@
+.about {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.about .about__left {
+  max-width: 40rem;
+  flex: 1;
+}
+
+.about .about__left p {
+  margin: 7rem 0 5rem;
+}
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+:root {
+  --white: #f3f6fb;
+  --black: #000000;
+  --primary-color: #02073e;
+  --secondary-color: #0f2137;
+  --dark-secondary-color: #3c415c;
+  --tertiary-color: #a6b1e1;
+  --light-tertiary-color: #f3f6fb;
+  --text-color: #343d48;
+
+  --font-family: sans-serif;
+}
+
+/*Aqui são todas as cores usadas, depois eu só puxo elas por comando.*/ 

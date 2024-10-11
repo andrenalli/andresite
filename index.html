@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>   
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />   
+    <title>trabalhoweb</title>
+    <link rel="stylesheet" href="css/tudo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar__content max-width mb-0">
+        
+        <ul class="navbar__links">
+          <li><a href="#header">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#skills">Portifólio</a></li>
+          <li><a href="#footer">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- header -->
+    <header id="header" class="max-width">
+      <div class="header__left">
+        <h1>André Nalli. </h1>
+        <p>
+          Graduando em Análise e Desenvolvimento de Sistemas, estou buscando oportunidades
+para atuar e adquirir experiências na área, comprometido a contribuir da melhor forma.
+        </p>
+        <a href="#about" class="btn btn-primary">Saiba Mais!</a>
+      </div>
+      <div class="header__right">
+        <div class="header__image">
+          <img id="profile-pic" src="assets/andrefoto.jpg" alt="Foto de perfil de André Nalli" width="300">
+        </div>
+      </div>
+    </header>
+
+    <!-- Minha Formação -->
+    <section id="about" class="about max-width">
+      <div class="about__left">
+        <h2 class="secondary-title">Minha Formação</h2>
+        <p>
+          Atualmente estou me graduando em Análise e Desenvolvimento de Sistemas como eu disse antes, 
+          mas simultâneamente estou fazendo Cursos na área e melhorando meu inglês, sendo que Atualmente
+          meu inglês se encontra no nível intermediário. 
+        </p>
+        
+      </div>
+      
+    </section>
+
+    <!-- habilidades ou portf -->
+    <section id="skills" class="skills">
+      <div class="skills__content max-width">
+        <h2 class="tertiary-title">Meu Portifólio</h2>
+        <ul>
+          
+          <li class="skills__item">
+            <div class="image-container">
+              
+            </div>
+            <h3>Lógica de Programação</h3>
+            <p>
+              Usei meu conhecimento em Lógica de Programação adquirido na Faculdade para realizar uma série de desafios de lógica. 
+            </p>
+          </li>
+          <li class="skills__item">
+            
+            <h3>Banco de Dados</h3>
+            <p>
+              Usei meu conhecimento básico em Banco de Dados adquirido na Faculdade para 
+              realizar criação e consultas simples sobre uma livraria. 
+            </p>
+            
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer ou rodapé -->
+    <footer id="footer">
+      <div class="footer__content max-width mb-0">
+        <h2 class="tertiary-title mb-s">Vamos conversar?</h2>
+        <p class="mb-m">
+          Se interessou? Entre em contato comigo :)
+        </p>
+        <form action="/enviar_mensagem">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required><br><br>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br><br>
+          
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+          
+          <input type="submit" value="Enviar">
+        </form>
+        <div class="footer__contact mb-m">  
+        </div>
+        <ul class="mb-l">
+          
+        </ul>
+        <p class="footer__copyright">
+          © 2024 André Nalli. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+    <!-- script js -->
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
